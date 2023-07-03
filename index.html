@@ -1,0 +1,115 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstrap page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+              <div class="navbar-header" >
+                <a class="navbar-brand" href="#">Hifi tech</a>
+              </div>
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Products <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Mobile</a></li>
+                    <li><a href="#">Watch</a></li>
+                    <li><a href="#">tv</a></li>
+                  </ul>
+                </li>
+                <li><a href="#Contact us">Contact us</a></li>
+                <button class="btn btn-primary navbar-btn">Order Now</button>
+              </ul>
+            </div>
+          </nav>
+    </header>
+    <main>
+        <section class="Home" id="Home">
+          <div class="bg-primary">
+            <div class="text-center">
+                <h1><a href="#Home" class="text-danger ">Home Page</a></h1>
+                <img src="image/homr.webp" class="img-fluid" width="80%" height="80%"><br>
+                <a href="#About"><button class="btn btn-success" style="width: 200px; height: 50px;" >About</button></a>
+            </div>
+          </div>
+        </section>
+        <section class="About" id="About">
+          <div class="bg-info">
+            <div class="container">            
+              <div class="text-center">
+                <img src="image/home1.png">
+                <p>Explore our wide range of products that cater to different needs and interests. From electronics and home appliances to fashion and wellness, we offer a diverse selection that combines functionality.</p>
+                <a href="#Products"><button class="btn btn-success" style="width: 200px; height: 50px;" >Products</button></a>
+            </div>        
+            </div>
+          </div>
+        </section>
+        <section class="Products" id="Products">
+          <div class="bg-primary">
+            <div class="container-fluid">
+              <h1 class="text-dark">Products in our shop:</h1>
+                <table class="table table-bordered">
+                  <thead>
+                    <tr>
+                      <th>Product</th>
+                      <th>Product name</th>
+                      <th>Price</th>
+                    </tr>
+                  </thead>
+                  <tbody class="bg-info">
+                    <tr>
+                      <td>Mobile</td>
+                      <td>One plus nord ce3 lite</td>
+                      <td>₹19,999</td>
+                    </tr>
+                    <tr>
+                      <td>Tv</td>
+                      <td>samsang</td>
+                      <td>₹30,000</td>
+                    </tr>
+                    <tr>
+                      <td>laptop</td>
+                      <td>Hp</td>
+                      <td>₹150,000</td>
+                    </tr>
+                    <tr>
+                      <td>Watch</td>
+                      <td>Fasttrack</td>
+                      <td>₹15,000</td>
+                    </tr>
+                    <tr>
+                      <td>Airpot</td>
+                      <td>One plus</td>
+                      <td>₹5000</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div  class="text-center">
+                  <a href="#Contact us"><button class="btn btn-success" style="width: 200px; height: 50px;" >Contact us</button></a>
+                </div>
+            </div>       
+          </div>
+        </section>
+        <section class="Contact us" id="Contact us">    
+          <div class="container">
+            <div class="text-center">
+              <h1>Contact Details</h1>
+              <div class="row">
+                <div class="col"><span class="glyphicon glyphicon-envelope">Email id:</span></div>
+                <div class="col">Mobile no:123456789</div>
+                <div class="col">LOcation:Thanjavur</div>
+              </div>
+            </div>
+          </div>   
+        </section>
+    </main>
+</body>
+</html>
