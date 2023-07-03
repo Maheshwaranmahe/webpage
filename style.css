@@ -1,4 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+.About{
+    position: relative;
+}
 .About .text-center{
-    float: right;
-    margin-top: 10%;
+    background-color: gold;
+}
+.card{
+    width: 30px;
+    height: 500px; 
+    transition: all 0.01s ease;
+    cursor: pointer; 
+}
+.card:hover{
+    box-shadow: 4px 6px 6px 2px #e9ecef;
+    transform: scale(1.01);
+}
+.Contactus{
+    background-color: gray;
+    position: relative;
+    height: 20%;
+    width: auto;
+    color: #fff;
+    padding: 5% 0 0 10%;
+}
+.Contactus h3 {
+    position: absolute;
+    margin-top: -40px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 24px;
+    color: #fff;
+}
+.social {
+    display: block;
+    text-align: left;
+    padding-top: 10px;
+}
+.social li {
+    display: inline-block;
+    margin-right: 14px;
+}
+.social li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+.social li a i {
+    font-size: 32px;
+    color: white;
+}
+.social li a i:hover{
+    color: #db3620;
+}
+.Contact {
+    position: absolute;
+    padding-top: 20px;
+    margin: -6% 0 0 30%;
+}
+.Contact li {
+    color: #fff;
+    display: inline-block;
+    font-size: 15px;
+    padding-left: 50px;
+}
+.Contact li i {
+    padding-right: 15px;
+    font-size: 21px;
+    color: #fff;
+}
+.Contact li span {
+    color: #fff;
+    font-size: 20px;
+}
+@media only screen and (min-width:150px) and (max-width:767px){
+    .Contactus{
+        height: 60%;
+    }
+    .Contactus h3{
+        margin-top: 5%;
+        left: 10px;
+    }
+    .social{
+        margin-top: 20%;
+        margin-left: -50px;
+    }
+    .Contact{
+        right: 40%;
+        width: 80%;
+    }
+    .Contact li{ 
+        margin-top: 20px;
+        margin-left: 10%; 
+    }
 }
